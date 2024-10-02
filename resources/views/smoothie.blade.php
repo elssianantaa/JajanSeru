@@ -86,11 +86,11 @@
                     <div class="row pt-2 gap-2" style="display: flex; flex-wrap: wrap;">
                         @foreach ($food as $key => $item)
                             <div class="col-md-2 card d-flex"
-                                style="width: 250px; height: 370px; border: none; border-radius: 10px; margin-bottom: 20px; background-color: rgba(255, 255, 255, 0.5); border: 1px solid white; margin-right: 10px;">
+                                style="width: 220px; height: 370px; border: none; border-radius: 10px; margin-bottom: 20px; background-color: rgba(255, 255, 255, 0.5); border: 1px solid white; margin-right: 10px;">
 
                                 <div style="position: relative; display: inline-block;">
                                     <img src="{{ asset('storage/public/'.$item->foto) }}" alt=""
-                                         style="height: 200px; width: 225px; margin-top: 20px; border-radius: 10px;">
+                                         style="height: 200px; width: 195px; margin-top: 20px; border-radius: 10px;">
                                     
                                     <a href="{{ route('detail', ['id' => $item->id]) }}">    
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" 
